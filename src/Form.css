@@ -1,0 +1,30 @@
+.my-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.select-input, .date-input, .text-input {
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
